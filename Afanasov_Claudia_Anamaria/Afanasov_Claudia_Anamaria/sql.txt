@@ -1,0 +1,11 @@
+
+CREATE TABLE `rentalapp`.`bikes` (
+  `idBike` INT NOT NULL AUTO_INCREMENT,
+  `brand` VARCHAR(200) NOT NULL,
+  `model` VARCHAR(200) NOT NULL,
+  `price` FLOAT NOT NULL,
+  `color` VARCHAR(50) NULL,
+  `type` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idBike`));
+
+select * from bikes;
